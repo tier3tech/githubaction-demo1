@@ -6,6 +6,8 @@ jobs:
     steps:
       - name: Print greetings!
         run: echo "Hello All"
+  Secondjob:
+    runs-on: ubuntu latest
       - name: Run multiple commands 
         run: |
           echo "Hello Github"
